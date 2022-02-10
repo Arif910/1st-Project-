@@ -1,0 +1,235 @@
+/* common code start here */
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+   
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* bg-success text-white  rounded-circle p-3 */
+.icon-style{
+    background-color: rgb(230, 14, 230);
+    color:white;
+    border-radius:50%;
+    padding:13px;
+    margin:10px 0px;
+}
+
+.hr-style{
+    border: 5px dotted black;
+    border-bottom:none;
+    width:65px;
+}
+
+
+/* common code ends here */
+
+
+/* header design start here  */
+header{
+    background-image:url(photos/banner-img.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position:center;
+}
+
+.banner-container{
+    height:100vh;
+}
+
+
+.banner-content h1{
+    font-size:3.5ren;
+    background-color:rgba(19, 65, 151, 0.8);
+    padding:10px;
+    font-family: 'Handlee', cursive;
+}
+
+
+/* header design ends here */
+
+
+/* nav design start here */
+
+.navbar{
+    padding:1% 10%;
+    background-color:rgb(0,0,0,0.3);
+    
+}
+
+.nav-link{
+    margin:10px;
+    border-radius:5px;
+    transition:0.4s;
+}
+
+.nav-link:hover{
+    transform:scale(1.2);
+    color:white;
+
+}
+
+/* nav design ends here */
+
+/* features design start */
+.features{
+    background-color: darkgray;
+    padding:5% 10%;
+    
+}
+
+.features-container{
+    border:1px solid blue;
+    padding:10px;
+    transition:.4s;
+    margin:15px 5px;
+
+}
+
+.features-container:hover{
+    transform:scale(1.1);
+    box-shadow:8px 8px 10px black;
+}
+
+/* features design end */
+
+/* About me section design start here   */
+#about-me{
+    background-color: darkgray;
+    padding:5% 10%;
+}
+.title-section h3{
+    font-weight:bolder;
+    text-transform:uppercase;
+    margin-bottom:0;
+
+}
+
+
+.para-style{
+    margin-bottom:0px;
+    font-weight:light;
+}
+
+.email-style{
+    color:black;
+    letter-spacing:2px;
+    text-decoration:underline;
+
+}
+
+.personal-information, .achievements{
+    margin:20px 0px;
+}
+
+.star-style i{
+    width:30px;
+    color:black;
+}
+/* About me section design start here  */
+
+/* Tutorial section design start */
+#tutorial{
+    background-image:url(photos/card-background.jpg);
+    background-position:center;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding:5% 10%;
+}
+.card{
+    transition:.4s;
+    border:2px solid black;
+}
+
+.card:hover{
+    transform:scale(1.1);
+    box-shadow:5px 5px 10px black;
+}
+
+.row{
+    margin-bottom: 45px;
+}
+/* Tutorial section design end */
+
+
+/* Feedback design start here */
+#feedback{
+    padding:5%;
+    background-color: darkslategrey;
+    color:white !important;
+}
+
+.hr-style-sp{
+
+    border: 5px dotted rgb(236, 236, 236);
+    border-bottom:none;
+    width:65px;
+}
+
+.carousel-item{
+    padding:7% 15%;
+    text-align: center;
+    font-style:italic;
+    font-size:1.3rem;
+}
+
+.carousel-item img{
+    border-radius:15px;
+    border:2px solid black;
+    transition:.5s;
+    margin: 15px 0px;
+}
+
+.carousel-item img:hover{
+    transform:scale(1.05);
+    box-shadow:5px 5px 10px rgb(0, 0, 0);
+}
+/* Feedback design ends here */
+
+/* contact me section design start here */
+#contact{
+    background-color:darkgray;
+    padding:2% 10%;
+}
+
+.valid-reaction{
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+    font-size:18px;
+    letter-spacing:2px;
+    color:white;
+}
+
+.invalid-reaction{
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+    font-size:18px;
+    letter-spacing:2px;
+}
+
+/* contact me section design ends here */
+
+
+/* Footer section design start here */
+.footer-design{
+    background-color:darkslategrey;
+    margin:0px;
+}
+
+.footer-design p{
+    letter-spacing:2.5px;
+    font-size:1rem;
+
+}
+/* Footer section design ends here */
